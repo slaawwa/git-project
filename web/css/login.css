@@ -1,0 +1,13 @@
+	
+	#vk-login-button {
+		/*background: navy;*/
+	}
+
+	.panel {
+		border: none;
+		box-shadow: none;
+	}
+
+	.panel-heading {
+		border: 1px solid transparent;
+	}

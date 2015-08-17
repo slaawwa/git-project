@@ -1,0 +1,83 @@
+
+	#pot_quest ul {
+		margin-top: 0px;
+	}
+
+	#pot_quest small {
+		font-size: 10px;
+	}
+	#pot_quest table {
+		/*margin-bottom: 0px;*/
+	}
+	.pDate div:last-child {
+		font-size: large;
+	}
+	.pDate div:first-child {
+		background: maroon;
+		color: white;
+		border-radius: 10px 10px 0px 0px;
+		padding: 3px;
+	}
+	.pDate {
+		margin: 2px;
+		/*padding: 3px;*/
+		box-shadow: 0 0 15px black inset;
+		border-radius: 10px;
+		display: inline-block;
+		background-color: white;
+		min-width: 55px;
+	}
+
+	.icon {
+		background-image: url(/web/img/icon1.png);
+		/*background-position: 0 0;*/
+		width: 50px;
+		height: 50px;
+	}
+	.dangerIcon {
+		background-position: -100px 0;
+	}
+	.successIcon {
+		background-position: 100px 0;
+	}
+	.infoIcon {
+		background-position: -8px 42px;
+		height: 42px;
+	}
+	.warningIcon {
+		background-position: 0px 0;
+	}
+
+	#grafic tr td:first-child {
+		background-position: bottom;
+		background-repeat: no-repeat;
+		width: 50px;
+		vertical-align: top;
+		text-align: center;
+	}
+	#grafic tr.danger td:first-child {
+		background-image: url(/web/img/danger.png);
+	}
+	#grafic tr.warning td:first-child {
+		background-image: url(/web/img/warning.png);
+	}
+	#grafic tr.success td:first-child {
+		background-image: url(/web/img/success.png);
+	}
+
+	#pot_quest .scroll {
+		max-height: 300px;
+		height: 300px;
+		/*overflow: auto;*/
+		border: 1px solid #ddd;
+		overflow-y: scroll;
+		padding: 10px;
+	}
+	.row {
+		margin-right: -15px;
+		margin-left: -15px;
+		background-color: white;
+		margin: 15px auto;
+		border-radius: 10px;
+		padding: 10px 0;
+	}
