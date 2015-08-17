@@ -11,7 +11,7 @@
   <body ng-app="myApp">
     <div class="header">
       <div class="container">
-        <h1><?php echo "Hello, World";?></h1>
+        <h1><?php echo "Тестова сторінка створена з Angular)";?></h1>
       </div>
     </div>
 
@@ -20,7 +20,7 @@
 
         <h1>{{ title }}</h1>
         <h2>{{ promo }}</h2>
-
+        <hr>
         <div class="col-md-6" ng-repeat='product in products'>
           <div class="thumbnail">
             <img ng-src="{{ product.cover }}" />
@@ -50,4 +50,4 @@
 
     <!-- Controllers -->
     <script src="js/main_controller.js"></script>
-  </body>	
+  </body> 
